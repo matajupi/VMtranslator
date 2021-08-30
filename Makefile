@@ -1,4 +1,14 @@
-SRCS=main.c parser.c code_writer.c vm_translator.h
+CFLAGS=-std=c11 -g -static
+SRCS=$(wildcard *.c)
+OBJS=$(SRCS:.c=.o)
 
-vmt.exe: $(SRCS)
-	gcc $(SRCS) -o vmt.exe
+VMtranslator: $(OBJS)
+	gcc -o VMtranslator $(OBJS) $(LDFLAGS)
+
+$(OBJS): vm_translator.h
+
+test: VMtranslator
+	sh test.sh
+
+clean:
+	rm -f VMtranslator *.o *~
