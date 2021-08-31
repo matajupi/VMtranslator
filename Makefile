@@ -1,14 +1,11 @@
-CFLAGS=-std=c11 -g -static
-SRCS=$(wildcard *.c)
-OBJS=$(SRCS:.c=.o)
+GCCOPS=-std=c++20 -Wall
+SRCS = main.cc CodeWriter.h Parser.h vmtranslator_all.h
 
-VMtranslator: $(OBJS)
-	gcc -o VMtranslator $(OBJS) $(LDFLAGS)
-
-$(OBJS): vm_translator.h
+VMtranslator: $(SRCS)
+	g++ $(GCCOPS) $< -o $@
 
 test: VMtranslator
 	sh test.sh
 
 clean:
-	rm -f VMtranslator *.o *~
+	rm -f ./VMtranslator
