@@ -2,7 +2,10 @@
 #define VMTRANSLATOR_VMTRANSLATOR_ALL_H
 
 #include <bits/stdc++.h>
+#include "Instruction.h"
 #include "Parser.h"
-#include "CodeWriter.h"
+#include "CodeGenerator.h"
+
+namespace fs = std::filesystem;
 
 #endif // VMTRANSLATOR_VMTRANSLATOR_ALL_H

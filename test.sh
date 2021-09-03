@@ -3,8 +3,8 @@ emulator_path="../../tools/CPUEmulator.sh"
 
 assert() {
     filename="$1"
-    ./VMtranslator "$filename".vm
-    sh "$emulator_path" "$filename".tst > /dev/null
+    python3 main.py "$filename.vm"
+    sh "$emulator_path" "$filename.tst"
 
     if [ "$?" = 0 ]; then
         echo "$filename.vm => Success"
@@ -14,4 +14,9 @@ assert() {
     fi
 }
 
+assert "tests/StackArithmetic/SimpleAdd/SimpleAdd"
+assert "tests/StackArithmetic/StackTest/StackTest"
+assert "tests/MemoryAccess/BasicTest/BasicTest"
+assert "tests/MemoryAccess/PointerTest/PointerTest"
+assert "tests/MemoryAccess/StaticTest/StaticTest"
 echo OK

@@ -1,7 +1,0 @@
-#ifndef VMTRANSLATOR_CODEWRITER_H
-#define VMTRANSLATOR_CODEWRITER_H
-
-#include "vmtranslator_all.h"
-
-
-#endif // VMTRANSLATOR_CODEWRITER_H
