@@ -1,0 +1,13 @@
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator.deps.json
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator.runtimeconfig.json
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator.runtimeconfig.dev.json
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator.dll
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/bin/Debug/netcoreapp3.1/VMtranslator.pdb
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.csprojAssemblyReference.cache
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.AssemblyInfoInputs.cache
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.AssemblyInfo.cs
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.dll
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.pdb
+/mnt/c/Users/Kosuke Futamata/source/nand2tetris/projects/VMtranslator/csharp/obj/Debug/netcoreapp3.1/VMtranslator.genruntimeconfig.cache
