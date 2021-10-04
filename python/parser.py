@@ -12,9 +12,9 @@ def parse(istream, filename):
     return instructions
 
 def parse_one_line(line, filename):
+    if "//" in line:
+        line = line[:line.index("//")]
     chunks = line.split()
-    if "//" in chunks:
-        chunks = chunks[:chunks.index("//")]
         
     if len(chunks) == 0:
         return None

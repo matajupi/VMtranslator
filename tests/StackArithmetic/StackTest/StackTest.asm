@@ -106,9 +106,9 @@ M=M+1
 AM=M-1
 D=M
 A=A-1
-D=D-M
+D=M-D
 @.Ltrue4
-D;JGT
+D;JLT
 D=0
 @.Lend4
 0;JMP
@@ -136,9 +136,9 @@ M=M+1
 AM=M-1
 D=M
 A=A-1
-D=D-M
+D=M-D
 @.Ltrue5
-D;JGT
+D;JLT
 D=0
 @.Lend5
 0;JMP
@@ -166,9 +166,9 @@ M=M+1
 AM=M-1
 D=M
 A=A-1
-D=D-M
+D=M-D
 @.Ltrue6
-D;JGT
+D;JLT
 D=0
 @.Lend6
 0;JMP
